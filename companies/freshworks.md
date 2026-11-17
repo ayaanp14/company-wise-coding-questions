@@ -1,4 +1,8 @@
+[← All companies](../README.md) · [Most asked across companies](../most-asked.md)
+
 # Freshworks Coding Questions
+
+![Questions](https://img.shields.io/badge/questions-10-0079E8?style=flat-square) ![Easy](https://img.shields.io/badge/easy-2-22C55E?style=flat-square) ![Medium](https://img.shields.io/badge/medium-8-EAB308?style=flat-square) ![Hard](https://img.shields.io/badge/hard-0-EF4444?style=flat-square)
 
 **10 Freshworks coding questions** — 2 easy and 8 medium. Each one links to a free page where you can solve it in 13 languages, with hints and an editorial.
 
@@ -8,29 +12,58 @@
 
 ## Contents
 
-- [Easy (2)](#easy-2)
-- [Medium (8)](#medium-8)
+- [Start with these 10](#start-with-these-10)
+- [Topics Freshworks asks most](#topics-freshworks-asks-most)
+- 🟢 [Easy (2)](#easy-2)
+- 🟡 [Medium (8)](#medium-8)
+
+## Start with these 10
+
+The Freshworks questions most other companies ask too — the patterns worth knowing first.
+
+1. 🟢 [Two Sum](https://codekairo.com/problems/two-sum?utm_source=github) — also asked at 18 other companies
+2. 🟢 [Valid Parentheses](https://codekairo.com/problems/valid-parentheses?utm_source=github) — also asked at 14 other companies
+3. 🟡 [Longest Substring Without Repeating Characters](https://codekairo.com/problems/longest-substring-without-repeating-characters?utm_source=github) — also asked at 13 other companies
+4. 🟡 [Container With Most Water](https://codekairo.com/problems/container-with-most-water?utm_source=github) — also asked at 6 other companies
+5. 🟡 [Meeting Rooms II](https://codekairo.com/problems/meeting-rooms-ii?utm_source=github) — also asked at 5 other companies
+6. 🟡 [Remove Duplicates from Sorted Array II](https://codekairo.com/problems/remove-duplicates-from-sorted-array-ii?utm_source=github) — also asked at 4 other companies
+7. 🟡 [Count Complete Subarrays in an Array](https://codekairo.com/problems/count-complete-subarrays-in-an-array?utm_source=github) — also asked at 2 other companies
+8. 🟡 [Maximum Consecutive Floors Without Special Floors](https://codekairo.com/problems/maximum-consecutive-floors-without-special-floors?utm_source=github) — also asked at 2 other companies
+9. 🟡 [Search in Rotated Sorted Array](https://codekairo.com/problems/search-in-rotated-sorted-array?utm_source=github) — also asked at 1 other company
+10. 🟡 [Product of Array Except Self](https://codekairo.com/problems/product-of-array-except-self?utm_source=github)
+
+## Topics Freshworks asks most
+
+[Arrays](https://codekairo.com/challenges/arrays?utm_source=github) (8) · [Hash Table](https://codekairo.com/challenges/hash-table?utm_source=github) (3) · [Greedy](https://codekairo.com/challenges/greedy?utm_source=github) (2) · [Sliding Window](https://codekairo.com/challenges/sliding-window?utm_source=github) (2) · [Sorting](https://codekairo.com/challenges/sorting?utm_source=github) (2) · [Strings](https://codekairo.com/challenges/strings?utm_source=github) (2) · [Two Pointers](https://codekairo.com/challenges/two-pointers?utm_source=github) (2) · [Binary Search](https://codekairo.com/challenges/binary-search?utm_source=github) (1) · [Heap](https://codekairo.com/challenges/heap?utm_source=github) (1) · [Intervals](https://codekairo.com/challenges/intervals?utm_source=github) (1)
+
+```mermaid
+%%{init: {"theme": "base", "themeVariables": {"pie1":"#22C55E","pie2":"#EAB308","pieStrokeColor":"#FFFFFF","pieOuterStrokeWidth":"0px","pieSectionTextColor":"#111111"}}}%%
+pie showData
+    title Freshworks questions by difficulty
+    "Easy" : 2
+    "Medium" : 8
+```
 
 ## Easy (2)
 
 | # | Question | Topics | Acceptance |
 |---:|---|---|---:|
-| 1 | [Two Sum](https://codekairo.com/problems/two-sum?utm_source=github) | Arrays, Hash Table | — |
-| 4 | [Valid Parentheses](https://codekairo.com/problems/valid-parentheses?utm_source=github) | Strings, Stack | — |
+| 1 | 🟢 [Two Sum](https://codekairo.com/problems/two-sum?utm_source=github) | Arrays, Hash Table | — |
+| 4 | 🟢 [Valid Parentheses](https://codekairo.com/problems/valid-parentheses?utm_source=github) | Strings, Stack | — |
 
 ## Medium (8)
 
 | # | Question | Topics | Acceptance |
 |---:|---|---|---:|
-| 12 | [Product of Array Except Self](https://codekairo.com/problems/product-of-array-except-self?utm_source=github) | Arrays, Prefix Sum | — |
-| 29 | [Longest Substring Without Repeating Characters](https://codekairo.com/problems/longest-substring-without-repeating-characters?utm_source=github) | Strings, Sliding Window, Hash Table | — |
-| 44 | [Container With Most Water](https://codekairo.com/problems/container-with-most-water?utm_source=github) | Arrays, Two Pointers, Greedy | — |
-| 58 | [Search in Rotated Sorted Array](https://codekairo.com/problems/search-in-rotated-sorted-array?utm_source=github) | Arrays, Binary Search | — |
-| 126 | [Meeting Rooms II](https://codekairo.com/problems/meeting-rooms-ii?utm_source=github) | Arrays, Sorting, Heap | — |
-| 252 | [Remove Duplicates from Sorted Array II](https://codekairo.com/problems/remove-duplicates-from-sorted-array-ii?utm_source=github) | Arrays, Two Pointers | — |
-| 798 | [Count Complete Subarrays in an Array](https://codekairo.com/problems/count-complete-subarrays-in-an-array?utm_source=github) | Arrays, Hash Table, Sliding Window | — |
-| 853 | [Maximum Consecutive Floors Without Special Floors](https://codekairo.com/problems/maximum-consecutive-floors-without-special-floors?utm_source=github) | Arrays, Sorting, Greedy | — |
+| 12 | 🟡 [Product of Array Except Self](https://codekairo.com/problems/product-of-array-except-self?utm_source=github) | Arrays, Prefix Sum | — |
+| 29 | 🟡 [Longest Substring Without Repeating Characters](https://codekairo.com/problems/longest-substring-without-repeating-characters?utm_source=github) | Strings, Sliding Window, Hash Table | — |
+| 44 | 🟡 [Container With Most Water](https://codekairo.com/problems/container-with-most-water?utm_source=github) | Arrays, Two Pointers, Greedy | — |
+| 58 | 🟡 [Search in Rotated Sorted Array](https://codekairo.com/problems/search-in-rotated-sorted-array?utm_source=github) | Arrays, Binary Search | — |
+| 126 | 🟡 [Meeting Rooms II](https://codekairo.com/problems/meeting-rooms-ii?utm_source=github) | Arrays, Sorting, Heap | — |
+| 252 | 🟡 [Remove Duplicates from Sorted Array II](https://codekairo.com/problems/remove-duplicates-from-sorted-array-ii?utm_source=github) | Arrays, Two Pointers | — |
+| 798 | 🟡 [Count Complete Subarrays in an Array](https://codekairo.com/problems/count-complete-subarrays-in-an-array?utm_source=github) | Arrays, Hash Table, Sliding Window | — |
+| 853 | 🟡 [Maximum Consecutive Floors Without Special Floors](https://codekairo.com/problems/maximum-consecutive-floors-without-special-floors?utm_source=github) | Arrays, Sorting, Greedy | — |
 
 ---
 
-[← All companies](../README.md) · Rebuilt every night from [codekairo.com](https://codekairo.com/challenges/company/freshworks?utm_source=github). Last refreshed: November 2026.
+[← All companies](../README.md) · Rebuilt every night from [codekairo.com](https://codekairo.com/challenges/company/freshworks?utm_source=github). Last refreshed: November 2026. ⭐ [Star the repo](https://github.com/ayaanp14/company-wise-coding-questions) if it helps.
