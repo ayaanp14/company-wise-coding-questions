@@ -68,7 +68,7 @@ function split(counts) {
 }
 
 /** "🟢 116 · 🟡 11 · 🔴 0" */
-const dots = (counts) => `${DOT.Easy} ${n(counts.easy)} · ${DOT.Medium} ${n(counts.medium)} · ${DOT.Hard} ${n(counts.hard)}`;
+const dots = (counts) => [["Easy", counts.easy], ["Medium", counts.medium], ["Hard", counts.hard]].map(([l, k]) => `${DOT[l]}&nbsp;${n(k)}`).join("&nbsp;· ");
 
 /* ── how widely each question is asked ───────────────────────────── */
 
