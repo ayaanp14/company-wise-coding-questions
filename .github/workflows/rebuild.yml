@@ -1,0 +1,42 @@
+# Rebuilds the lists from codekairo.com every night and commits only when
+# something changed. Needs no secrets: it reads a public export and pushes
+# with the workflow's own token.
+#
+# "Last refreshed: <month>" in the files changes once a month, so the repo
+# sees at least one commit a month even when no list moved — GitHub turns a
+# public repo's schedules off after 60 days without activity.
+name: Rebuild the lists
+
+on:
+  schedule:
+    - cron: "30 20 * * *" # 02:00 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rebuild
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/build.mjs
+      - name: Commit the change, if any
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Refresh the lists from codekairo.com"
+          git push
